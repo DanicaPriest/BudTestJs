@@ -1,3 +1,7 @@
+body{
+	background-color:#b1d2db;
+	color:#202020;
+}
 #form{
 	margin:80px;
 }
@@ -7,10 +11,30 @@ margin: 140px;
 }
 
 #cName{
+	color:#1b2e28;
+	font-size:40px;
 	padding:8px;
 	font-weight: bold;
+	text-shadow:1px 1px 0px #007261;
 }
 .info{
-	font-size:30px;
+	
+	font-size:25px;
 	padding:2px;
+}
+.btn, .btn:hover, .btn:active, .btn:focus, .btn:focus-within, .btn:hover:active{
+	
+	color:#b1d2db;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #202020;
+
+	
+}
+.btn, .btn:focus, .btn:active, .btn:focus-within{
+	background-color:#007261;
+	
+}
+.btn:hover, .btn:hover:active{
+	background-color:#1c4a47;
+	
 }

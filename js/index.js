@@ -11,12 +11,13 @@ $(document).ready(function () {
    
     var code = $("#input").val();
 	if (code.length > 3 || code.length < 2) {
-		$("#cName").html("Country Code Must be 2 or 3 Letters Long");
+		return $("#cName").html("Country Code Must be 2 or 3 Letters Long");
 	}
 	if (code.match(/[^a-zA-Z]+/) ){
-		$("#region").html("Country Codes Only Contain letters");
-		return
+		return $("#cName").html("Country Codes Only Contain letters");
+		 
 	}
+	
        var url= "http://api.worldbank.org/v2/country/" + code + "?format=json";
     
     
@@ -33,7 +34,7 @@ $(document).ready(function () {
                    
      
     }) 
-                 
+	          
    
   })
   
