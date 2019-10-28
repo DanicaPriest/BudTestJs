@@ -18,7 +18,7 @@ $(document).ready(function () {
 		 
 	}
 	
-       var url= "http://api.worldbank.org/v2/country/" + code + "?format=json";
+       var url= "https://api.worldbank.org/v2/country/" + code + "?format=json";
     
     
    $.getJSON(url, function(data){
