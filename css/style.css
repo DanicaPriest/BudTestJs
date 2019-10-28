@@ -1,0 +1,16 @@
+#form{
+	margin:80px;
+}
+
+#main{
+margin: 140px;
+}
+
+#cName{
+	padding:8px;
+	font-weight: bold;
+}
+.info{
+	font-size:30px;
+	padding:2px;
+}
